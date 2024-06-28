@@ -9,7 +9,10 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-    title: "Links OnBoard",
+    title: {
+        template: "%s | Links OnBoard",
+        default: "Links OnBoard",
+    },
     description: "Central de links da OnBoard",
 }
 

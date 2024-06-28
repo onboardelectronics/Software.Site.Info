@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "500px",
+        "2xs": "340px"
+      },
+      colors: {
+        brand: "#1ecc3e"
+      }
     },
   },
   plugins: [],
