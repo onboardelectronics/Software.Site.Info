@@ -5,7 +5,6 @@ import { MdMenuBook, MdMovie } from "react-icons/md"
 import { BsPostcardFill } from "react-icons/bs"
 import type { Metadata } from "next"
 
-
 export const metadata: Metadata = {
     title: "Manual de instalação",
     description: "Links de manual de instalação de dispositivos OnBoard",
