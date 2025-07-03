@@ -21,9 +21,9 @@ export default function InstallationManualPage() {
         </div>
 
         <div className="flex-1 grid grid-cols-1 2xs:grid-cols-2 md:grid-cols-3 gap-4 p-8 justify-center items-center auto-rows-max content-center">
-            <LinkCard title="Manual de instalação" url="" icon={<MdMenuBook size={32} />} className="aspect-square hover:bg-white hover:text-black" />
-            <LinkCard title="Videos" url="" icon={<MdMovie size={32} />} className="aspect-square hover:bg-white hover:text-black" />
-            <LinkCard title="Panfleto" subtitle="Passo a passo" url="" icon={<BsPostcardFill size={32} />} className="aspect-square hover:bg-white hover:text-black" />
+            <LinkCard title="Manual de instalação" url="/manual-instalacao/downloads" icon={<MdMenuBook size={32} />} className="aspect-square hover:bg-white hover:text-black" />
+            <LinkCard title="Videos" url="/manual-instalacao/videos" icon={<MdMovie size={32} />} className="aspect-square hover:bg-white hover:text-black" />
+            <LinkCard title="Panfleto" subtitle="Passo a passo" url="/manual-instalacao/panfletos" icon={<BsPostcardFill size={32} />} className="aspect-square hover:bg-white hover:text-black" />
         </div>
     </nav>
 }
